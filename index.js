@@ -54,5 +54,14 @@ cardWrapper.appendChild(createCard('Evan Lahti', 'PC Gamer', './images/image 8.j
 let swiper = new Swiper(".gallery", {
   effect: "cards",
   grabCursor: true,
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    bulletClass: 'gallery-pagination-bullet',
+    bulletActiveClass: 'gallery-pagination-bullet-active'
+  },
+  navigation: {
+    nextEl: '.gallery-button-next'
+  },
 });
 
