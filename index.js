@@ -57,6 +57,7 @@ let swiper = new Swiper(".gallery", {
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
+    clickable: true,
     bulletClass: 'gallery-pagination-bullet',
     bulletActiveClass: 'gallery-pagination-bullet-active'
   },

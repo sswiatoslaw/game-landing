@@ -234,6 +234,7 @@ border: none;
 }
 
 .about-gallery .line {
+  position: absolute;
   z-index: 999;
   height: 3px;
   width: 710px;
@@ -258,10 +259,19 @@ border: none;
   margin-top: 60px;
   margin-left: 250px;
   max-width: 365px;
+  font-size: 16px;
+  font-weight: 400;
   font-family: 'Open Sans', sans-serif;
 }
 
+.about-gallery p span {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
 .about-gallery .gallery{
+  margin: 0 20px;
   color: #FFF;
   width: 500px;
   height: 610px;
